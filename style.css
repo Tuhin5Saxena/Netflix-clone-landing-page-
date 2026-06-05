@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
@@ -256,4 +257,217 @@ section{
 .items a{
     color:rgba(255, 255, 255, 0.7);
     
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url(assets/IN-en-20251124-TRIFECTA-perspective_9f00d07d-f08e-494f-8907-92371138c534_large.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:max(1200px,100vw);
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 80px;
+}
+nav img{
+    color:red;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    display: flex;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index:100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:70px;
+}
+ 
+.hero span:nth-child(1){
+    font-weight: 900;
+    font-size: 56px;
+}
+.hero span:nth-child(2){
+    font-weight: 900;
+    font-size: 56px;
+}
+.hero span:nth-child(3){
+    font-weight: 800;
+    font-size: 20px;
+}
+.but{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+.line{
+    height: 3px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 13px 34px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: none;
+    border-radius:4px;
+    font-weight: 600;
+}
+.btn :first-child{
+    font-size: 18px;
+}
+.btn-red{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: red;
+    /* font-weight: 600; */
+    font-size:24px;
+    border-radius: 6px;
+
+}
+.btn-red-sm{
+    background-color: red;
+    /* font-weight: 500; */
+    font-size:16px ;
+}
+section{
+    margin: auto;
+    /* display: flex; */
+    }
+.first{
+    color: white;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    
+   
+   
+}
+
+section :first-child{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+}
+.firstsec{
+    margin-top: 50px;
+    height:80;
+    width:40vw;
+    background-color:rgb(20, 8, 49);
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+}
+.firstimg{
+ 
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.secondsec{
+    margin-top: 50px;
+    height:220px;
+    width:40vw;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(20, 8, 49);
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+}
+/* .secondimg{
+    
+} */
+.thirdsec{
+    margin-top: 50px;
+    height:220px;
+    width:40vw;
+    background-color:rgb(20, 8, 49);
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+}
+/* .thirdimg{
+    
+} */
+.fourthsec{
+    margin-top: 50px;
+    height:220px;
+    width:40vw;
+    background-color:rgb(20, 8, 49);
+    border-radius: 30px;
+    padding: 15px;
+    position: relative;
+}
+/* .fourthimg{
+    
+} */
+.faq h2{
+    text-align:center;
+    font-size: 20px;
+}
+.faq{
+    background:black;
+    color: white;
+    padding: 34px;
+    font-size: 9px;
+}
+.faqbox:hover{
+    transition: all;
+    background-color: rgb(65, 61, 61);
+}
+.faqbox svg{
+    filter:invert(1);
+}
+ 
+.faqbox{
+    transition: all 0.7s ease-out;
+    display: flex;
+    background-color: rgb(45, 39, 39);
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+    max-width: 70vw;
+    margin: 14px auto;
+    cursor: pointer;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer items{
+    display: flex;
+    flex-direction: column;
+>>>>>>> e30b8ce7321b644f0de0714458ae7ec0e4261087
 }
