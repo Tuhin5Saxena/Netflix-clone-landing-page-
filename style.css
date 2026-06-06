@@ -83,7 +83,7 @@ nav button{
     border-radius:4px;
     font-weight: 600;
 }
-.btn :first-child{
+.btn:first-child{
     font-size: 18px;
 }
 .btn-red{
@@ -256,4 +256,149 @@ section{
 }
 .items a{
     color:rgba(255, 255, 255, 0.7);
+}
+/* responsive */
+/* Tablets */
+@media screen and (max-width: 1024px) {
+
+    .hero span:nth-child(1),
+    .hero span:nth-child(2) {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero span:nth-child(3) {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .firstsec,
+    .secondsec,
+    .thirdsec,
+    .fourthsec {
+        width: 40vw;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+
+    nav {
+        max-width: 95vw;
+    }
+
+    nav img {
+        width: 120px;
+    }
+
+    .hero {
+        padding: 20px;
+        text-align: center;
+        line-height: normal;
+        gap: 15px;
+    }
+
+    .hero span:nth-child(1),
+    .hero span:nth-child(2) {
+        font-size: 32px;
+    }
+
+    .hero span:nth-child(3) {
+        font-size: 16px;
+    }
+
+    .but {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .btn-red {
+        font-size: 18px;
+    }
+
+    .first {
+        flex-direction: column;
+        align-items: center;
+        width: 95vw;
+    }
+
+    .firstsec,
+    .secondsec,
+    .thirdsec,
+    .fourthsec {
+        width: 85vw;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .faq {
+        width: 90vw;
+        padding: 15px;
+    }
+
+    .faqbox {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .bottom {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .items {
+        text-align: center;
+    }
+    
+    .more{
+        font-size: 24px;
+        margin-left: 0px;
+        position: static;
+    }
+}
+
+
+/* Small Phones */
+@media screen and (max-width: 480px) {
+
+    .hero span:nth-child(1),
+    .hero span:nth-child(2) {
+        font-size: 26px;
+    }
+
+    .hero span:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .btn-red {
+        font-size: 16px;
+    }
+
+    .first h3 {
+        font-size: 22px;
+    }
+
+    .first p {
+        font-size: 16px;
+    }
 }
